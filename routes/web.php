@@ -27,3 +27,4 @@ Route::get('/plan_schedule',[OperationsController::class, 'schedule_plan'])->mid
 Route::get('/getpdf',[OperationsController::class, 'get_pdf'])->middleware('auth');
 Route::post('/create_new_goal',[OperationsController::class, 'schedule'])->middleware('auth');
 Route::post('/img_upload',[OperationsController::class, 'upload_img'])->middleware('auth');
+Route::get('/tet',[OperationsController::class, 'getUsers']);

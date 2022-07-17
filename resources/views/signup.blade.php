@@ -49,7 +49,9 @@
                 <hr />
                 
                 <div class='route'>Already Have An Account? <a href='/login'>Login</a></div>
+
                 </form>
+                <a href="/tet">test</a>
             </div>
         </div> 
         </div>

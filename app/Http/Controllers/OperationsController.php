@@ -8,6 +8,7 @@ use Mail;
 use App\Mail\ContactMail;
 use PDF;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 use PHPMailer\PHPMailer\PHPMailer;  
 use PHPMailer\PHPMailer\Exception;
 use Dompdf\Dompdf;
@@ -195,6 +196,12 @@ class OperationsController extends Controller
                 return back()->with(['msg'=>'Image Uploaded successfully']); 
             }
         }
+    }
+
+    public function getUsers (){
+        $todate = date('Y-m-d');
+        $users = DB::table('users')->where('next_pay_date', $todate)->get();
+        dd($users);
     }
 
     
