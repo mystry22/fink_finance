@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'finkapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA39D6263DC844C4947F1F992DCFA6F8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26132CDD1C2444CD8F4197131AE675BE }}
           package: .
