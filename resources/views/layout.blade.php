@@ -24,8 +24,8 @@
   <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/css/dash.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/dash.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 
